@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CUENTA FACIL S.A</title>
+    <style type="text/css">
+        body {
+            background-color: skyblue;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-shadow: 2px 20px 20px black;
+            border-radius: 30px;
+            min-height: 100px;
+            width: 100%;
+            font-size: 2.5em;
+            text-align: center;
+            background-color: white;
+            color: skyblue;
+            margin: 20px 0;
+            padding-top: 20px;
+            box-shadow: 2px 2px 10px black;
+        }
+        nav {
+            border-radius: 15px;
+            margin: 20px 0;
+            background-color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+            font-style: italic;
+            padding: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        a {
+            text-decoration: none;
+            color: pink;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        section {
+            flex: 1 1 70%; /* Flex-grow, flex-shrink, flex-basis */
+            min-width: 300px;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: white;
+            color: black;
+            font-size: 15px;
+        }
+        aside {
+            flex: 1 1 25%; /* Flex-grow, flex-shrink, flex-basis */
+            min-width: 250px;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: black;
+            color: white;
+        }
+        footer {
+            background-color: purple;
+            height: 100px;
+            color: white;
+            font-size: 1.2em;
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 30px;
+        }
+        ol {s
+            list-style: none;
+            padding: 0;
+        }
+        img {
+            height: 125px;
+            width: auto; /* Maintain aspect ratio */
+            max-width: 100%; /* Responsive */
+        }
+        div {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive grid */
+            gap: 10px; /* Space between items */
+        }
+        @media (max-width: 768px) {
+            header {
+                font-size: 2em;
+            }
+            nav {
+                font-size: 1em;
+            }
+            footer {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Minsu</header>
+    <nav>
+        <ul>
+            <li><a href="#ini">INICIO</a></li>
+            <li><a href="#mis">MISION</a></li>
+            <li><a href="#vis">VISION</a></li>
+            <li><a href="#pro">PRODUCTOS</a></li>
+            <li><a href="#se">SERVICIOS</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1 id="ini">Inicio</h1>
+            somos una empresa que se dedica a....
+            <hr>
+            <h1 id="mis">Mision</h1>
+            nuestra mision es....
+            <hr>
+            <h1 id="vis">Vision</h1>
+            nuestra vision es....
+            <hr>
+            <h1 id="pro">Productos</h1>
+            contamos con los siguientes productos....
+            <div>
+                <img src="https://www.ceupe.com/images/easyblog_articles/3461/productos-en-estantera.jpg" alt="comida chatarrra" title="comida chatarrra">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn9WVBwR13ejCESmHoYu-jkayuqh8pDw1mUA&s" alt="coca" title="coca">
+                <img src="https://www.ceupe.com/images/easyblog_articles/3301/producto-terminado-ejemplo_20220407-220115_1.png" alt="carrito" title="carrito">
+                <img src="https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750105862001L.jpg">
+                <img src="https://distribuidoraeleden.com/wp-content/uploads/ALI0112.jpg">
+                <img src="https://tiendaelnuevoregalito.com/assets/uploads/54dac61a4a4d19bb70bc5222d55b265a.jpg">
+            </div>
+            <hr>
+            <h1 id="se">Servicios</h1>
+            los servicios que prestamos son los siguientes....
+        </section>
+        <aside>
+            <ol>
+                <li><a href="https://blog.hubspot.es/sales/que-es-inventario#:~:text=Un%20inventario%20es%20un%20documento,y%20deudas%20de%20una%20empresa." target="blank">inventario</a></li>
+                <li><a href="https://www.bbva.com/es/salud-financiera/que-es-el-balance-general-o-de-situacion-de-una-empresa/" target="blank">Balances</a></li>
+                <li><a href="https://dle.rae.es/ajuste" target="blank">Ajustes</a></li>
+                <li><a href="https://guatemala.cuentanos.org/es/articles/8665161606941" target="blank">Calculo de impuesto</a></li>
+            </ol>
+        </aside>
+    </main>
+    <footer>
+        Telefono: 54209300
+        <br>
+        E-mail: mins@gmail.com
+    </footer>
+</body>
+</html>
+xz
